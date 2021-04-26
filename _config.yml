@@ -1,4 +1,4 @@
-#title: your-cool-website
+title: your-cool-website
 sass:
     style: compressed
     sass_dir: _sass
