@@ -1,6 +1,19 @@
 ---
 layout: uikit-plain
 ---
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li class="uk-parent"><a href="/index.html#about">about</a></li>
+                <li class="uk-parent"><a href="blog/index.html">blog</a></li>
+                <li class="uk-parent"><a href="/index.html#contact">contact</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
 <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item 1</div>
@@ -14,7 +27,7 @@ layout: uikit-plain
                 <img src="https://placeimg.com/640/480/any" alt="">
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title"><a href="blog-post/index.html">dolor</a></h3>
+                <h3 class="uk-card-title"><a href="blog-post/index.html">Blog post</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
         </div>
